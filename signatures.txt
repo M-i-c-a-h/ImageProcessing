@@ -1,0 +1,82 @@
+#light
+
+
+
+namespace FSharp
+
+namespace ImageLibrary
+    
+    module Operations =
+        
+        /// 
+        /// truncateNum
+        /// if argument value is greater than 255, 255 is returned ,if value is less than 0, 0 is returned,
+        ///  otherwise value is returned back
+        val trucanteNum: num: float -> int
+        
+        ///
+        /// sepia helper function
+        /// ApplySepiaOnRow L : (int * int * int) list
+        /// function takes in a list of tuples, manipulates each value of tuple and returns manipulated values as list of tuples
+        val ApplySepiaOnRow: L: (int * int * int) list -> (int * int * int) list
+        
+        val Sepia:
+          width: int ->
+            height: int ->
+            depth: int ->
+            image: (int * int * int) list list -> (int * int * int) list list
+        
+        ///
+        /// Increase Intesity helper function
+        /// intesify_xxx (L : (int * int * int) list) (value : float)
+        /// function takes in a list of tuples, manipulates XXX pixel values of each tuple 
+        /// and returns manipulated values as list of tuples
+        val intensifyRed:
+          L: (int * int * int) list -> value: float -> (int * int * int) list
+        
+        val intensifyGreen:
+          L: (int * int * int) list -> value: float -> (int * int * int) list
+        
+        val intensifyBlue:
+          L: (int * int * int) list -> value: float -> (int * int * int) list
+        
+        val IncreaseIntensity:
+          width: int ->
+            height: int ->
+            depth: int ->
+            image: (int * int * int) list list ->
+            intensity: double -> channel: char -> (int * int * int) list list
+        
+        val FlipHorizontal:
+          width: int ->
+            height: int ->
+            depth: int ->
+            image: (int * int * int) list list -> (int * int * int) list list
+        
+        val Rotate180:
+          width: int ->
+            height: int ->
+            depth: int ->
+            image: (int * int * int) list list -> (int * int * int) list list
+        
+        /// 
+        /// distanceBetweenPixels
+        /// returns the distance bewteen two pixels (x1, y1, z1) and (x2, y2, z2)
+        val distanceBetweenPixels: int * int * int -> int * int * int -> float
+        
+        /// 
+        /// EdgeDetectRow
+        /// perform Edge detection on a row 
+        val EdgeDetectRow:
+          bottomRow: (int * int * int) list ->
+            currentRow: (int * int * int) list ->
+            width: int ->
+            currWidth: int -> threshold: int -> (int * int * int) list
+        
+        val EdgeDetect:
+          width: int ->
+            height: int ->
+            depth: int ->
+            image: (int * int * int) list list ->
+            threshold: int -> (int * int * int) list list
+

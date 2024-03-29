@@ -1,0 +1,11 @@
+/Users/pappi/Documents/UIC_DOC/Spring2024/CS 341/proj3-starter/ImageLibrary/bin/Debug/netcoreapp8.0/ImageLibrary.deps.json
+/Users/pappi/Documents/UIC_DOC/Spring2024/CS 341/proj3-starter/ImageLibrary/bin/Debug/netcoreapp8.0/ImageLibrary.dll
+/Users/pappi/Documents/UIC_DOC/Spring2024/CS 341/proj3-starter/ImageLibrary/bin/Debug/netcoreapp8.0/ImageLibrary.pdb
+/Users/pappi/Documents/UIC_DOC/Spring2024/CS 341/proj3-starter/ImageLibrary/obj/Debug/netcoreapp8.0/ImageLibrary.fsproj.AssemblyReference.cache
+/Users/pappi/Documents/UIC_DOC/Spring2024/CS 341/proj3-starter/ImageLibrary/obj/Debug/netcoreapp8.0/ImageLibrary.AssemblyInfoInputs.cache
+/Users/pappi/Documents/UIC_DOC/Spring2024/CS 341/proj3-starter/ImageLibrary/obj/Debug/netcoreapp8.0/ImageLibrary.AssemblyInfo.fs
+/Users/pappi/Documents/UIC_DOC/Spring2024/CS 341/proj3-starter/ImageLibrary/obj/Debug/netcoreapp8.0/ImageLibrary.fsproj.CoreCompileInputs.cache
+/Users/pappi/Documents/UIC_DOC/Spring2024/CS 341/proj3-starter/ImageLibrary/obj/Debug/netcoreapp8.0/ImageLibrary.dll
+/Users/pappi/Documents/UIC_DOC/Spring2024/CS 341/proj3-starter/ImageLibrary/obj/Debug/netcoreapp8.0/refint/ImageLibrary.dll
+/Users/pappi/Documents/UIC_DOC/Spring2024/CS 341/proj3-starter/ImageLibrary/obj/Debug/netcoreapp8.0/ImageLibrary.pdb
+/Users/pappi/Documents/UIC_DOC/Spring2024/CS 341/proj3-starter/ImageLibrary/obj/Debug/netcoreapp8.0/ref/ImageLibrary.dll
